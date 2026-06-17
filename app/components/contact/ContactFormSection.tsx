@@ -73,8 +73,8 @@ export default function ContactFormSection() {
               </div>
               <div>
                 <h4 className="font-extrabold text-slate-800 dark:text-white text-sm">Call Center</h4>
-                <a href="tel:+2348000000000" className="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent mt-0.5 block">
-                  +234 (0) 801 234 5678
+                <a href="tel:+233241234567" className="text-sm text-slate-500 hover:text-primary dark:text-slate-400 dark:hover:text-accent mt-0.5 block">
+                  +233 (0) 24 123 4567
                 </a>
               </div>
             </li>
@@ -95,7 +95,7 @@ export default function ContactFormSection() {
         {/* WhatsApp Button */}
         <div className="pt-2">
           <a
-            href="https://wa.me/2348012345678"
+            href="https://wa.me/233241234567"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg shadow-emerald-500/10 hover:shadow-emerald-500/25 transition-all text-sm cursor-pointer"
@@ -180,7 +180,7 @@ export default function ContactFormSection() {
                   required
                   value={formData.parentName}
                   onChange={handleChange}
-                  placeholder="e.g. Mrs. Sarah Adebayo"
+                  placeholder="e.g. Mrs. Sarah Mensah"
                   className="w-full bg-slate-50 dark:bg-zinc-800 text-slate-900 dark:text-white px-4 py-3.5 rounded-xl border border-slate-100 dark:border-zinc-700/60 focus:outline-none focus:ring-1 focus:ring-accent text-sm"
                 />
               </div>
@@ -197,7 +197,7 @@ export default function ContactFormSection() {
                   required
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="e.g. sarah.adebayo@mail.com"
+                  placeholder="e.g. sarah.mensah@mail.com"
                   className="w-full bg-slate-50 dark:bg-zinc-800 text-slate-900 dark:text-white px-4 py-3.5 rounded-xl border border-slate-100 dark:border-zinc-700/60 focus:outline-none focus:ring-1 focus:ring-accent text-sm"
                 />
               </div>
@@ -214,7 +214,7 @@ export default function ContactFormSection() {
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="e.g. +234 801 234 5678"
+                  placeholder="e.g. +233 24 123 4567"
                   className="w-full bg-slate-50 dark:bg-zinc-800 text-slate-900 dark:text-white px-4 py-3.5 rounded-xl border border-slate-100 dark:border-zinc-700/60 focus:outline-none focus:ring-1 focus:ring-accent text-sm"
                 />
               </div>

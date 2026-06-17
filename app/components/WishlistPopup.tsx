@@ -160,7 +160,7 @@ export default function WishlistPopup() {
                         value={formData.parentName}
                         onChange={e => setFormData(prev => ({ ...prev, parentName: e.target.value }))}
                         className="w-full bg-[#090d16] border border-slate-800 rounded-xl px-4 py-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#00A8A8] focus:ring-1 focus:ring-[#00A8A8] transition-all text-xs sm:text-sm font-medium"
-                        placeholder="e.g. Chinedu Okafor"
+                        placeholder="e.g. Kwame Mensah"
                       />
                     </div>
 
@@ -191,7 +191,7 @@ export default function WishlistPopup() {
                           value={formData.phone}
                           onChange={e => setFormData(prev => ({ ...prev, phone: e.target.value }))}
                           className="w-full bg-[#090d16] border border-slate-800 rounded-xl px-4 py-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#00A8A8] focus:ring-1 focus:ring-[#00A8A8] transition-all text-xs sm:text-sm font-medium"
-                          placeholder="e.g. +234 801 234 5678"
+                          placeholder="e.g. +233 24 123 4567"
                         />
                       </div>
                     </div>
@@ -209,7 +209,7 @@ export default function WishlistPopup() {
                           value={formData.childName}
                           onChange={e => setFormData(prev => ({ ...prev, childName: e.target.value }))}
                           className="w-full bg-[#090d16] border border-slate-800 rounded-xl px-4 py-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-[#FF8C42] focus:ring-1 focus:ring-[#FF8C42] transition-all text-xs sm:text-sm font-medium"
-                          placeholder="e.g. Tobi"
+                          placeholder="e.g. Kofi"
                         />
                       </div>
                       <div className="space-y-1.5">

@@ -174,7 +174,7 @@ export default function SchoolsForm() {
                   required
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="e.g. +234 801 234 5678"
+                  placeholder="e.g. +233 24 123 4567"
                   className="w-full bg-slate-50 dark:bg-zinc-800 text-slate-900 dark:text-white pl-12 pr-4 py-3.5 rounded-xl border border-slate-100 dark:border-zinc-700/60 focus:outline-none focus:ring-1 focus:ring-accent text-sm"
                 />
               </div>

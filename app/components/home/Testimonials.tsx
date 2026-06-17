@@ -11,10 +11,10 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote: "Explorers' Edge Academy has completely changed how my daughter interacts with technology. Instead of playing games all day, she is now designing her own! The instructors are patient and excellent.",
-      name: "Mrs. Sarah Adebayo",
+      name: "Mrs. Sarah Mensah",
       role: "Parent of 11-year-old Scratch student",
       rating: 5,
-      initials: "SA",
+      initials: "SM",
       avatarColor: "bg-blue-500",
     },
     {
@@ -27,10 +27,10 @@ export default function Testimonials() {
     },
     {
       quote: "I loved building my first responsive website in the Web Development class. Learning HTML, CSS, and Javascript was made so easy with the project-based approach. I am excited to learn Python next!",
-      name: "Tobi Alao",
+      name: "Kwame Boateng",
       role: "Student (Age 14, Web Dev Program)",
       rating: 5,
-      initials: "TA",
+      initials: "KB",
       avatarColor: "bg-teal-500",
     },
   ];

@@ -88,10 +88,11 @@ export default function Hero() {
             {/* Visual Frame wrapper */}
             <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border-4 border-white dark:border-zinc-800 bg-slate-100 dark:bg-zinc-900 group">
               <Image
-                src="/images/hero_tech.png"
-                alt="Children coding and exploring robotics"
+                src="/images/hero_coding_ai.png"
+                alt="Children learning coding and AI training"
                 fill
                 priority
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-103"
               />
               {/* Overlay styling for extra premium feel */}

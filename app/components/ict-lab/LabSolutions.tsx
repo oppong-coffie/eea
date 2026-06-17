@@ -72,6 +72,7 @@ export default function LabSolutions() {
             src="/images/ict_lab_3d.png"
             alt="3D render of a futuristic ICT classroom"
             fill
+            sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
           />
         </div>

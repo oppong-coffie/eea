@@ -110,6 +110,7 @@ export default function GalleryGrid() {
                 src={item.src}
                 alt={item.alt}
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
               {/* Overlay on hover */}
@@ -163,6 +164,7 @@ export default function GalleryGrid() {
                 src={selectedImage.src}
                 alt={selectedImage.alt}
                 fill
+                sizes="100vw"
                 className="object-contain"
               />
               <div className="absolute bottom-6 left-6 right-6 p-4 bg-black/45 backdrop-blur-md rounded-2xl border border-white/10 text-white text-center sm:text-left">
