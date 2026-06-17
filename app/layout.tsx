@@ -20,9 +20,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Explorers' Edge Academy | Future-Ready Digital Skills & Tech for Kids",
+  title: "Explorers' Edge Academy",
   description: "Empowering children and teenagers with coding, AI, robotics, web development, and digital creativity. Discover our project-based learning and school partnership programs.",
   keywords: "coding for kids, technology academy, digital skills, scratch programming, python, web development, AI fundamentals, STEM, robotics, digital creativity",
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
